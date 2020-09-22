@@ -16,6 +16,7 @@
         }
         header a{
             margin: 10px 0 0 0;
+            font-family: cursive;
             font-size: 40px;
             color: #FF9B9B;
         }
@@ -98,10 +99,19 @@
             height: 260px;
             margin: 20px 40px;
         }
-        main div img:hover{
-            opacity: 0.7;
+        main div img:hover{ opacity: 0.7;}
+        @media (max-width: 376px) {
+            .mainPage{
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+            }
+            .searchInput{
+                width: 280px;
+            }
         }
     </style>
+
 </head>
 <body>
 <header>
