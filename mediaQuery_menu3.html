@@ -16,6 +16,7 @@
         header a{
             margin: 10px 0 0 0;
             font-size: 40px;
+            font-family: cursive;
             color: #FF9B9B;
         }
         input[id="menuB"]{
@@ -84,7 +85,40 @@
             width: 300px;
             height: 380px;
             border-style: solid;
-            margin: 40px 20px;
+            margin: 40px 20px 40px 100px;
+            display: flex;
+            flex-direction: row;
+        }
+        .menuContents h2{
+            margin: 0 20px 15px 20px;
+            border-style: solid;
+            width: 500px;
+            height: 80px;
+        }
+        .menuContents div{
+            margin: 0 20px 20px 20px;
+            border-style: solid;
+            width: 500px;
+            height: 280px;
+        }
+
+        @media (max-width: 376px){
+            .mainContents{
+                flex-direction: column;
+                margin: 10px 35px;
+            }
+            .menuContents{
+                margin: 10px 0;
+            }
+            .menuContents h2{
+                width: 300px;
+                margin: 10px 0;
+            }
+            .menuContents div{
+                width: 300px;
+                height: 200px;
+                margin: 0 0;
+            }
         }
 
     </style>
@@ -108,12 +142,17 @@
             <li><a href="mediaQuery_menu4.html">MENU4</a></li>
         </ul>
     </div>
+
     <div class="mainContents">
-        contents
+        <div>
+            <img src="light.jpg" width="300" height="380" alt="light">
+        </div>
+        <div class="menuContents">
+            <h2>LIGHT</h2>
+            <div>Twinkle</div>
+        </div>
     </div>
+
 </main>
-<footer>
-    @__narrrrrmm
-</footer>
 </body>
 </html>
