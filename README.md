@@ -1,3 +1,3 @@
 ## single webpage design and publishing
 
-https://namsanglim.github.io/kmu-wink-singleWebpageDesign/mediaQuery.html
+https://sanglim00.github.io/kmu-wink-singleWebpageDesign/mediaQuery.html
